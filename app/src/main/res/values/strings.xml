@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Zufo</string>
+    <string name="hint_email">Email</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="invalid_email">Your Email is Invalid</string>
+    <string name="invalid_password">Your Password is Too Short</string>
+    <string name="incorrect_password">Your Password is Not Correct</string>
+    <string name="fields_required">Please fill the fields</string>
+
+</resources>

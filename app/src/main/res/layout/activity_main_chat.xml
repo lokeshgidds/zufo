@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffff"
+    tools:context="com.example.android.zufo.MainChatActivity"
+    android:padding="10dp"
+    >
+
+<ListView
+    android:id="@+id/chat_list_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:transcriptMode="alwaysScroll"
+    android:dividerHeight="0dp"
+    android:layout_alignParentTop="true"
+    android:layout_above="@+id/listFooter"
+    >
+
+</ListView>
+
+    <LinearLayout
+        android:id="@+id/listFooter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/messageInput"
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:hint="Send a Mesage"
+        android:textColor="#000000"
+        android:textColorHint="#7f8c8d"
+        android:gravity="center_horizontal"
+        android:imeActionLabel="Send"/>
+        <ImageButton
+            android:id="@+id/SendButton"
+            android:background="@drawable/circular_button"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_send"
+            android:contentDescription="SEND"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
